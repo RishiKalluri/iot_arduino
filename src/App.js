@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
           <Button size='massive' circular={true} color='green' onClick={lightOn}> ON </Button>
-          <Button size='massive' width={100} circular={true} color='red' onClick={lightOff}> OFF </Button>
+          <Button size='massive' circular={true} color='red' onClick={lightOff}> OFF </Button>
       </div>
     );
   }
